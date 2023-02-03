@@ -65,6 +65,16 @@ h2 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    border-top: 5px solid red;
+    border-left: 5px solid green;
+    border-bottom: 5px solid yellow;
+    border-right: 5px solid orange;
+    border-width: 10px;
+    border-radius: 7px;
+    border-top-style: dashed;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-right-style: groove;
 }
 
 .footer {
