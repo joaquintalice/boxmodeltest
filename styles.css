@@ -170,3 +170,17 @@ h2 {
 }
 
 /* button class style end */
+
+
+.root2 {
+    background-color: green;
+    display: inline-block;
+    width: 600px;
+    height: auto;
+}
+
+.root2 p {
+    display: flex;
+    justify-content: s;
+    background-color: #05ff43;
+}
