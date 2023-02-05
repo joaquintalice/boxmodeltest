@@ -1,3 +1,112 @@
 body {
-    background-color: grey;
+    background-color: gray;
+}
+
+.container {
+    background-color: rgba(68, 151, 93, 0.568);
+    border: solid green;
+    padding: 30px;
+    width: 100%;
+    max-width: 1840px;
+    margin: auto;
+}
+
+.azul-main {
+    background-color: rgba(0, 247, 255, 0.664);
+    padding: 30px;
+    border: solid blue;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.marron-claro {
+    background-color: antiquewhite;
+    width: 550px;
+    height: 200px;
+    border: solid rgb(255, 123, 0);
+    padding: 10px;
+}
+.marron-con-2 {
+    background-color: antiquewhite;
+    width: 550px;
+    height: 200px;
+    border: solid rgb(255, 123, 0);
+    display: flex;
+    padding: 10px;
+}
+
+.rojos {
+    background-color: brown;
+    border: solid red;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+
+/*--------------------------------------------------------------------*/
+
+
+.bordo-container {
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
+    background-color: rgba(128, 128, 128, 0);
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+
+
+.cont1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cont2 {
+    display: block;
+    margin-top: 30px;
+}
+
+.bordo1 {
+    background-color: rgb(189, 31, 168);
+    border: solid rgb(255, 0, 0);
+    width: 840px;
+    gap: 20px;
+    margin-top: 45px;
+    height: 320px;
+}
+
+.bordo {
+    background-color: rgb(204, 194, 61);
+    border: solid rgb(255, 0, 0);
+    width: 967px;
+    margin-left: 266px;
+    margin-top: 15px;
+    height: 150px;
+    display: flex;
+
+}
+
+.azul-2 {
+    background-color: #ADD8E6;
+    border: 5px solid blue;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+.gris-claro {
+    background-color: #E2DEFF;
+    border: 5px solid #6A5ACD;
+    width: 500px;
+    height: 150px;
+}
+
+.marron-claro2 {
+    width: 400px;
+    background-color: #C7F0C7;
+    border: 5px solid #F78576;
 }
