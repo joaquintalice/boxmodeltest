@@ -1,3 +1,44 @@
 body {
     background-color: grey;
 }
+
+
+.parent {
+    display: flex;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.child {
+    background-color: grey;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    flex: auto;
+    overflow: hidden;
+}
+
+form {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.name {
+    flex-grow: 1;
+    flex-basis: 168px;
+}
+
+.email {
+    flex-grow: 3;
+    flex-basis: 200px;
+}
+
+button {
+    flex-grow: 1;
+    flex-basis: 80px;
+}
+
+
