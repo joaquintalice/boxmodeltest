@@ -50,16 +50,19 @@ form {
 .name {
     flex-grow: 1;
     flex-basis: 168px;
+    min-width: 0;
 }
 
 .email {
     flex-grow: 1;
     flex-basis: 200px;
+    min-width: 0;
 }
 
 button {
     flex-grow: 1;
     flex-basis: 80px;
+    min-width: 0;
 }
 
 
