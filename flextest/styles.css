@@ -66,3 +66,32 @@ button {
 }
 
 
+/*Nav bar*/
+
+.nav-bar-container {
+    background-color: blanchedalmond;
+}
+
+.nav-bar-container ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: baseline;
+    padding: 0px 20px ;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.nav-logo {
+    font-weight: 500px;
+    margin-right: auto;
+}
+
+.nav-bar-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-items {
+
+}
