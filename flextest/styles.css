@@ -19,11 +19,31 @@ body {
     overflow: hidden;
 }
 
+.form-main {
+    display: flex;
+    border: 2px black;
+    margin: 20px 0px ;
+    width: auto;
+    height: auto;
+    background-color: red;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form-container {
+    background-color: wheat;
+    padding: 25px;
+    border: 1px solid black;
+    width: 650px;
+    justify-content: center;
+}
+
 form {
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
     gap: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .name {
@@ -32,7 +52,7 @@ form {
 }
 
 .email {
-    flex-grow: 3;
+    flex-grow: 1;
     flex-basis: 200px;
 }
 
